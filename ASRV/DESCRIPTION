@@ -1,0 +1,24 @@
+Package: ASRV
+Type: Package
+Title: Association Test for Rare Variants Based on Algebraic Statistics
+Version: 0.1.0
+Authors@R: c(
+    person("Wensheng", "Zhu", email = "wszhu@nenu.edu.cn", role = "aut"), 
+    person("Jingbo", "Meng", email = "mengjb940@nenu.edu.cn", role = "aut"), 
+    person("Canhui", "Li", email = "lich380@nenu.edu.cn", role = "cre"), 
+    person("KyongSon", "Jon", email = "jks19800911@163.com", role = "aut"))
+Description: Function for association test for rare variants based on algebraic statistics 
+    is ASRV. This method provides a novel association test for rare variants based on 
+    a generalization of Fisher’s exact test, and the p-value of this exact test can be computed 
+    under the hypergeometric distribution in the framework of algebraic statistics.
+License: GPL(>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2019-02-20 02:35:45 UTC; lenovo
+Author: Wensheng Zhu [aut],
+  Jingbo Meng [aut],
+  Canhui Li [cre],
+  KyongSon Jon [aut]
+Maintainer: Canhui Li <lich380@nenu.edu.cn>
